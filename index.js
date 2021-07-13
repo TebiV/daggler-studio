@@ -35,8 +35,8 @@ app.set('views', __dirname + '/views');
 //Pago (validar token)
 
 //Rutas del middleware
-app.use('/api/cart',validaToken,cart)
-app.use('/api/payment',validaToken,payment)
+//app.use('/api/cart',validaToken,cart)
+//app.use('/api/payment',validaToken,payment)
 
 
 //Servidor
